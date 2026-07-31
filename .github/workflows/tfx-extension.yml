@@ -40,10 +40,10 @@ jobs:
           echo "`jq '.version.Minor=${{ steps.gitversion.outputs.minor }}' task/task.json`" > task/task.json
           echo "`jq '.version.Patch=${{ github.run_number }}' task/task.json`" > task/task.json
 
-      - name: Use Node.js 20.1.x
-        uses: actions/setup-node@v4
+      - name: Use Node.js 24.x
+        uses: actions/setup-node@v7
         with:
-          node-version: '20.1.x'
+          node-version: '24'
 
       - name: NPM Install
         run: npm install
