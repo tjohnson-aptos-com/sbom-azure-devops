@@ -23,11 +23,6 @@
       "name": "package",
       "displayName": "Package Information",
       "isExpanded": true
-    },
-    {
-      "name": "advanced",
-      "displayName": "Advanced",
-      "isExpanded": false
     }
   ],
   "inputs": [
@@ -214,7 +209,7 @@
       "visibleRule": "command=generate"
     },
     {
-      "groupName": "advanced",
+      "groupName": "package",
       "name": "additionalComponentDetectorArgs",
       "type": "string",
       "label": "Additional Component Detector Arguments",
@@ -224,7 +219,7 @@
       "visibleRule": "command=generate"
     },
     {
-      "groupName": "advanced",
+      "groupName": "package",
       "name": "externalDocumentReferenceList",
       "type": "string",
       "label": "External Document Reference List",
