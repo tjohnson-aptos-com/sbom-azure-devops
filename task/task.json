@@ -40,7 +40,8 @@
       "helpMarkDown": "The [sbom-tool command](https://github.com/microsoft/sbom-tool?tab=readme-ov-file#run-the-tool) to run",
       "options": {
         "generate": "Generate"
-      }
+      },
+      "groupName":"package"
     },
     {
       "name": "buildSourcePath",
