@@ -44,6 +44,7 @@
       "groupName":"package"
     },
     {
+      "groupName": "package",
       "name": "buildSourcePath",
       "type": "multiLine",
       "label": "Build Source Paths",
@@ -53,6 +54,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "buildArtifactPath",
       "type": "multiLine",
       "label": "Build Artifact Paths",
@@ -62,6 +64,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "buildDockerImagesToScan",
       "type": "string",
       "label": "Build Docker Images",
@@ -71,6 +74,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "manifestOutputPath",
       "type": "string",
       "label": "Manifest Output Path",
@@ -80,6 +84,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "enableManifestSpreadsheetGeneration",
       "type": "boolean",
       "label": "Enable Manifest XLSX Spreadsheet Generation",
@@ -89,6 +94,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "enableManifestGraphGeneration",
       "type": "boolean",
       "label": "Enable Manifest SVG Graph Generation",
@@ -98,6 +104,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "enablePackageMetadataParsing",
       "type": "boolean",
       "label": "Enable Package Metadata Parsing",
@@ -107,6 +114,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "fetchLicenseInformation",
       "type": "boolean",
       "label": "Fetch License Information",
@@ -116,6 +124,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "licenseInformationTimeoutInSeconds",
       "type": "string",
       "label": "License Information Timeout (Seconds)",
@@ -125,6 +134,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "fetchSecurityAdvisories",
       "type": "boolean",
       "label": "Fetch Security Advisory Information",
@@ -134,6 +144,7 @@
       "visibleRule": "command=generate"
     },
     {
+      "groupName": "package",
       "name": "gitHubConnection",
       "type": "connectedService:github:OAuth,PersonalAccessToken,InstallationToken,Token",
       "label": "GitHub Connection (OAuth or PAT)",
@@ -143,6 +154,7 @@
       "visibleRule": "fetchSecurityAdvisories=true"
     },
     {
+      "groupName": "package",
       "name": "gitHubAccessToken",
       "type": "string",
       "label": "GitHub Access Token (PAT)",
